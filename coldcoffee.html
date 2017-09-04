@@ -1,0 +1,106 @@
+ <!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Example</title>
+		<link rel="stylesheet" type="text/css" href="style2.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+  		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+  		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  
+	</head>
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="50">
+	<nav class="navbar navbar-default navbar-fixed-top">
+		<div class="container-fluid"> 
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+					<span class="icon-bar"></span>
+        			<span class="icon-bar"></span>
+        			<span class="icon-bar"></span> 
+				</button>
+				<a class="navbar-brand" href="web.html">Rasoi</a>
+			</div>
+			<div class="collapse navbar-collapse" id="myNavbar">
+			<ul class="nav navbar-nav navbar-right">
+        		<li><a href="#suggest">SUGGEST</a></li>
+			</div>
+		</div>
+	</nav>
+
+<div class="container-fluid">
+  <div class="jumbotron dish_name">
+    <h1>COLD COFFEE</h1>
+    <span class="glyphicon glyphicon-star"></span>
+    <span class="glyphicon glyphicon-star"></span>
+    <span class="glyphicon glyphicon-star"></span>
+    <span class="glyphicon glyphicon-star"></span>
+    <span class="glyphicon glyphicon-star-empty"></span>
+  </div>
+
+  <div class="row">
+    <div class="col-sm-4">
+      <img src="cold.jpg" alt="Cold coffee" height="400" width="400">
+    </div>
+    <div class="col-sm-4">
+      
+      <table class="table">
+        <thead>
+          <tr>
+            <th>INGREDIENTS</th>
+          </tr>
+        </thead>
+
+        <tr><td>1 tablespoon instant coffee</td></tr>
+        <tr><td>1/4 cup warm water</td></tr>
+          <tr><td>3-4 tablespoon sugar</td></tr>
+          <tr><td>6-8 ice cubes</td></tr>
+      </table>
+    </div>
+
+    <div class="col-sm-4">
+      <table class="table">
+        <thead>
+          <tr>
+            <th>DIRECTIONS</th>
+          </tr>
+        </thead>
+        <tr><td>Take instant coffee, sugar and warm water in blender.</td></tr>
+        <tr><td>Stir very well. To make the shake, I use full cream milk, you can also use skimmed milk or low fat milk.</td></tr>
+        <tr><td>Blend for a minute till the coffee solution becomes frothy and the color lightens a bit.</td></tr>
+        <tr><td>Add ice cubes for a thick cold coffee.</td></tr>
+        <tr><td>Pour 2 cups chilled milk</td></tr>
+        <tr><td>Blend once more till everything is mixed well and you get a nice froth on top.</td></tr>
+        <tr><td>Pour in glasses and serve cold coffee</td></tr>
+        
+      </table>
+    </div>
+  </div>
+ 
+  <div class="row" id="suggest">
+    <div class="col-sm-12">
+      <hr>
+      <h2>Join the conversation</h2>
+      <form>
+        <div class="form-group">
+          <label for="comment">Comment:</label>
+          <textarea class="form-control" rows="5" id="comment" placeholder="Post a comment."></textarea>
+        </div>
+      </form>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-sm-12">
+      <button class="btn btn-lg btn-success" style="float: right;">POST</button>
+    </div>
+  </div>
+</div>
+
+<footer class="container-fluid text-center">
+  <a href="#myPage" title="To Top">
+    <span class="glyphicon glyphicon-chevron-up"></span>
+  </a>
+  <p>Copyright By <a href="#" title="abc">abc-xyz</a></p>
+</footer> 
+	</body>
+</html>

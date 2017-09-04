@@ -1,0 +1,73 @@
+ <!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Login</title>
+		<link rel="stylesheet" type="text/css" href="style3.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+  		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+  		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  
+	</head>
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="50">
+	<nav class="navbar navbar-default navbar-fixed-top">
+		<div class="container-fluid"> 
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+					<span class="icon-bar"></span>
+        			<span class="icon-bar"></span>
+        			<span class="icon-bar"></span> 
+				</button>
+				<a class="navbar-brand" href="#">Rasoi</a>
+			</div>
+			<div class="collapse navbar-collapse" id="myNavbar">
+			<ul class="nav navbar-nav navbar-right">
+        		<li><a href="register.html">REGISTER</a></li>
+			</div>
+		</div>
+	</nav>
+
+  <div class="container-fluid main_body"  style="padding-top: 150px; padding-bottom: 250px;">
+
+    <div class="row">
+    <div class="col-sm-1"></div>
+    <div class="col-sm-5">
+      <h2>Login Here</h2>
+      <br>
+     <form action="web.html" method="post">
+      <input type="text" class="form-control" id="Username" placeholder="Enter Username" name="Username" required="" autofocus=""><br>
+
+  <!-- password -->
+    
+      <input type="password" class="form-control" id="inputPassword" placeholder="Enter password" name="password" required="" autofocus="">
+
+          <div class="checkbox">
+          <label>
+            <input type="checkbox" name="remember">  Remember me
+          </label>
+          </div>
+    
+        <input  type="submit" class="btn btn-primary btn-sm btn-block" value="Log in">
+        </form>
+        <hr>
+        <div class="col-sm-4">
+        <a href="#">Forgot Password</a>
+        </div>
+        <div class="col-sm-4"></div>
+        <div class="col-sm-4">
+        <a href="register.html">Don't have account?</a>
+        </div>
+        </div>
+        </div>
+   </div> 
+    
+<footer class="container-fluid text-center">
+  <a href="#myPage" title="To Top">
+    <span class="glyphicon glyphicon-chevron-up"></span>
+  </a>
+  <p>Copyright By <a href="#" title="abc">abc-xyz</a></p>
+</footer> 
+
+	</body>
+</html> 

@@ -1,0 +1,31 @@
+
+ .navbar {
+      font-family: Montserrat, sans-serif;
+      margin-bottom: 0;
+      background-color: #999;
+      border: 0;
+      font-size: 11px !important;
+      letter-spacing: 4px;
+      opacity: 0.7;
+  }
+  .navbar li a, .navbar .navbar-brand { 
+      color: #222 !important;
+  }
+  .navbar-nav li a:hover {
+      color: #999 !important;
+  }
+  .navbar-nav li.active a {
+      color: #fff !important;
+      background-color: #29292c !important;
+  }
+  .navbar-default .navbar-toggle {
+      border-color: transparent;
+  }
+
+  .main_body{
+    background-image: url("chef.jpg");
+    background-size:cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: white;
+  }
